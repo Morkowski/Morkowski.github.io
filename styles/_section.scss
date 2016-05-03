@@ -1,0 +1,36 @@
+.section {
+
+	background-position: 50% 50px;
+   	background-repeat: no-repeat;
+   	background-size: auto 50vh;
+
+	min-height: 100vh;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	position: relative;
+	
+
+	@media screen and (min-width: $screen-sm-min)
+	{
+		background-position: right center;
+	   	background-repeat: no-repeat;
+	   	background-size: 50%;
+	}
+
+	&__header {
+		
+		font-family: $font-family-serif;
+		font-size: 35px;
+		font-weight: $bold;
+		margin-bottom: 22px;
+		
+
+		@media screen and (min-width: $screen-sm-min)
+		{
+
+			font-size: 41px;
+
+		}
+
+	}
+}

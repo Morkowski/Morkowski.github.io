@@ -1,0 +1,159 @@
+.navbarWM {
+
+	@extend .navbar;
+	@extend .navbar-fixed-top; 
+	@extend .navbar-default;
+
+	border: 0;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	&__brand {
+
+		@extend .navbar-brand;
+		
+		font-size: 16px;
+		transition-duration: $hoverTransitionDuration;
+		
+		&::after {
+
+			content: '*';
+			color: $pink;
+
+		}
+
+		&:hover, &:focus {
+
+			opacity: 0.7;
+			color: $textColor;
+		}
+
+		&--long {
+
+			display: none;
+			
+			@media screen and (min-width: $screen-sm-min){
+
+				display: block;	
+
+			}
+		}
+
+		&--short {
+
+			@media screen and (min-width: $screen-sm){
+
+				display: none;
+
+			}
+
+		}
+	}
+
+	&__collapse {
+
+		@extend .navbar-collapse;
+
+		border-width: 0;
+		box-shadow: none;
+
+	}
+
+	&__hamburger {
+
+		@extend .hamburger; 
+		@extend .hamburger--3dy;
+
+		float: right;
+		
+		&:focus {
+
+		outline: none;
+
+		}
+
+		@media screen and (min-width: $screen-sm-min){
+
+			display: none;
+
+		}
+	}
+
+	&__hamburgerBox {
+
+		@extend .hamburger-box;
+
+	}
+
+	&__hamburgerInner {
+
+		@extend .hamburger-inner;
+	
+	}
+
+	&__header {
+
+		@extend .navbar-header;
+
+	}
+
+	&__link {
+
+		transition-duration: $hoverTransitionDuration;
+		&:hover, &:focus {
+
+			opacity: 0.7;
+
+		}
+
+		&.active {
+
+			color: $pink !important;
+			transition-duration: $changeColorDuration;
+			
+		}
+
+		&--star {
+
+			position: relative;
+
+			&::before {
+
+				content: "*";
+				color: $pink;
+				position: absolute;
+				left: 8px;
+
+				
+
+			}
+
+			&.active::before {
+					
+				color: white;
+				transition-duration: $changeColorDuration;
+			}
+		}
+		
+
+		&--pink {
+
+			background-color: $pink;
+			
+			&:hover, &:focus {
+				
+				background-color: $pink !important;
+
+			}
+
+		}
+	}
+
+	&__nav {
+
+		@extend .nav; 
+		@extend .navbar-nav; 
+		@extend .navbar-right;
+	}
+
+}

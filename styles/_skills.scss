@@ -1,0 +1,33 @@
+.skills { 
+
+	@extend .section;
+   	
+   	background-color: $backgroundSkills;
+   	background-image: url('../images/skills.jpg');
+  
+	
+	&__icon {
+
+		margin-right: 5px;
+
+	}
+
+	&__list {
+		
+		align-items: center;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		list-style: none;
+		padding: 0;
+
+	}
+
+	&__listItem {
+
+		display: flex;
+		align-items: flex-end;
+		margin: 7px 4px;
+		
+	}
+}

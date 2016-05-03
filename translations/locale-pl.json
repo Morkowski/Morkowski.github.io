@@ -1,0 +1,34 @@
+{
+
+	"TITLE": "Wojciech Morkowski - strona osobista",
+	"ABOUT": "O mnie",
+	"SKILLS": "Umiejętności",
+	"CONTACT": "Kontakt",
+	"LANGUAGE_SWITCHER": "ENG",
+
+	"ABOUT_SECTION": {
+		"PARAGRAPH1" : "Witaj,",
+		"PARAGRAPH2": "cieszę się że tu jesteś. Nazywam się Wojciech Morkowski i jestem programistą, który od niedawna próbuje swoich sił we front endzie. Wcześniej zajmowałem się aplikacjami desktopowymi oraz mobilnymi.",
+		"PARAGRAPH3": "Wygląda jednak na to, że wszystkie drogi prowadzą do web developmentu ;)",
+		"READ_MORE": "Dowiedz się więcej"
+	},
+
+	"CV_SECTION": {
+		"MAIN": "Szukasz mojego CV?",
+		"DOWNLOAD": "Pobierz CV"
+	},
+
+	"SKILLS_SECTION": {
+		"PARAGRAPH": "Tutaj znajdziesz garść informacji z jakimi technologiami, narzędziami, metodologiami pracowałem:",
+		"QUESTIONS": "Masz jakieś pytania?"
+	},
+	
+	"CONTACT_SECTION": {
+		"PARAGRAPH": "Masz jakieś pytania? Wiesz co możnaby poprawić w moich projektach? Uważasz, że pasowałbym do Twojego zespołu? Napisz do mnie. Odpisuję na wszystkie wiadomości ;)",
+		"LINKS": "Możesz także znaleźć mnie tu:",
+		"MEETUP": "Pojawiam się także na spotkaniach ",
+		"FFC": "grupy Free Code Camp"
+	},
+
+	"FOOTER": "Projekt i wykonanie: Wojciech Morkowski, 2016"
+}

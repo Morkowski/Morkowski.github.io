@@ -1,0 +1,34 @@
+{
+	
+	"TITLE": "Wojciech Morkowski - personal website",
+	"ABOUT": "About Me",
+	"SKILLS": "Skills",
+	"CONTACT": "Contact",
+	"LANGUAGE_SWITCHER": "PL",
+
+	"ABOUT_SECTION": {
+		"PARAGRAPH1" : "Welcome,",
+		"PARAGRAPH2": "I am glad you are visiting my website. My name is Wojciech Morkowski and I am programmer who have just started working as front end developer. I was creating desktop and mobile applications before.",
+		"PARAGRAPH3": "But it seems like all roads lead to web development ;)",
+		"READ_MORE": "Read more"
+	},
+
+	"CV_SECTION": {
+		"MAIN": "Are you looking for my CV?",
+		"DOWNLOAD": "Download CV"
+	},
+
+	"SKILLS_SECTION": {
+		"PARAGRAPH": "You can find here bunch of informations about technologies, tools, metodologies I was working with:",
+		"QUESTIONS": "Do you have any questions?"
+	},
+	
+	"CONTACT_SECTION": {
+		"PARAGRAPH": "Do you have any questions? Do you know what can I improve in my projects? Do you think I am great candidate for your team? Send me an e-mail. I am replying for all your messages ;)",
+		"LINKS": "You can find me there:",
+		"MEETUP": "You can also met me at ",
+		"FFC": "Free Code Camp meetups"
+	},
+
+	"FOOTER": "Project and coding: Wojciech Morkowski, 2016"
+}
